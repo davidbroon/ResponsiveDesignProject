@@ -1,0 +1,75 @@
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    body {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 2em;
+        background-color: rgba(60, 60, 204, 0.685);
+        color: antiquewhite;
+     }
+    
+    .films > img{
+        width: auto;
+        height: 400px;
+        margin-top: 90px;
+    }
+    
+    .contacts {
+        margin-top: 100px;
+
+    }
+    
+    
+    .films {
+        margin-top: 100px;
+    }
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 2em;
+     }
+    
+    .films > img{
+        width: auto;
+        height: 400px;
+        margin-top: 90px;
+    }
+    
+    .contacts {
+        margin-top: 100px;
+    }
+    
+    .films {
+        margin-top: 100px;
+    }
+}
+
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+    body {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 2em;
+     }
+    
+    .films > img{
+        width: auto;
+        height: 400px;
+        margin-top: 90px;
+    }
+    
+    .contacts {
+        margin-top: 100px;
+    }
+    
+    .films {
+        margin-top: 100px;
+    }
+}
